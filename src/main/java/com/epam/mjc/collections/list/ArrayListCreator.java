@@ -10,6 +10,7 @@ public class ArrayListCreator {
             String currentWord = sourceList.get(i - 1); // Adjust index to 0-based
             if (i % 3 == 0) {
                 duplicatedWords.add(currentWord);
+                duplicatedWords.add(currentWord);
             }
         }
         return duplicatedWords;
